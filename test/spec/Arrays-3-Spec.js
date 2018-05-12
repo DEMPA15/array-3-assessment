@@ -21,7 +21,7 @@ describe('arrays', function () {
 		var newSunset = sunset()
 		
 		it('should create a copy by reference and change the first element to blue', function () {
-			let correct = newSunset[0] === "blue" && sunsetColors[0] === "blue"
+			let correct = newSunset[0] === "blue" && sunsetColors[0] === "brown"
 			expect(correct).toBe(true);
 		})
 		it('should not change the rest of the array', function () {

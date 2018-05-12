@@ -9,8 +9,15 @@
 //return the copy of the array.
 
   var sunsetColors = ["brown", "purple", "pink", "red", "orange", "yellow"]
-  
-  //Code here
+
+const sunset = ()=>{
+  let newArr = [...sunsetColors]
+  newArr[0]= 'blue'
+  return newArr
+}
+(console.log(sunset())) 
+
+
 
 
 //////////////////PROBLEM 2////////////////////
