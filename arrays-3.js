@@ -28,7 +28,11 @@ const sunset = ()=>{
 
   var sunriseColors = ["yellow", "orange", "red", "pink", "purple", "blue"]
   
-  //Code here
+const sunrise = ()=>{
+  let newArr = [...sunriseColors]
+  newArr[0] = 'green'
+  return newArr
+}
 
 
 //////////////////PROBLEM 3////////////////////
